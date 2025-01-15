@@ -1,4 +1,6 @@
 
+`include "clk_div_design.sv"
+
 module clk_div_top;
   reg clk;
   reg rst;
