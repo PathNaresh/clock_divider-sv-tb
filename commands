@@ -1,0 +1,5 @@
+// compile command
+vlog clk_div_tb.sv
+
+// run command in -gui mode
+vsim clk_div_top -gui -do "add wave run -all;" &
